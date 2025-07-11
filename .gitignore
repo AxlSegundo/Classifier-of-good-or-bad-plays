@@ -1,0 +1,25 @@
+# Ignorar entorno virtual (cuando se crea dentro del proyecto)
+Include/
+Lib/
+Scripts/
+Share/
+pyvenv.cfg
+
+# Archivos de Python temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Archivos de entorno
+.env*
+*.ini
+*.cfg
+
+# Ignorar archivos grandes específicos
+Data/*.pgn
+Data/*.log
+
+# Archivos de notebook de Jupyter
+.ipynb_checkpoints/
