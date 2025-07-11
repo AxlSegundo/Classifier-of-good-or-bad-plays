@@ -11,15 +11,13 @@ __pycache__/
 *.pyo
 *.pyd
 *.db
-
+*.pgn
 # Archivos de entorno
 .env*
 *.ini
 *.cfg
 
-# Ignorar archivos grandes específicos
-Data/*.pgn
-Data/*.log
+
 
 # Archivos de notebook de Jupyter
 .ipynb_checkpoints/
