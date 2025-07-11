@@ -21,3 +21,6 @@ __pycache__/
 
 # Archivos de notebook de Jupyter
 .ipynb_checkpoints/
+
+# Ignorar carpeta local de stockfish (motor)
+stockfish/
